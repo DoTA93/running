@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.scene {
+  background: url('../img/runner.png');
+  height: 200px;
+  width: 266px;
+  animation: run 1s steps(24) infinite;
+  margin: 100px auto 0 auto;
+}
+
+@keyframes run {
+  100% {
+    background-position: -6400px;
+  }
+}
